@@ -1,0 +1,69 @@
+body,
+html {
+    font-family: sans-serif;
+    background-image: url('/static/image/sam.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: white;
+    margin-top: 150px;
+    width: 350px  !important;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.form-control input {
+    width: 90%;
+    padding: 5px 0;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+ ::placeholder {
+    color: rgb(145, 145, 145);
+    font-size: 17px;
+}
+
+.btn {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #147affe7;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 7px 10px;
+    margin: 5px 5px;
+    border: none;
+}
+
+.btn:hover {
+    background: #7099ff;
+    color: rgb(255, 255, 255);
+}
+
+.btn:active {
+    position: relative;
+}
